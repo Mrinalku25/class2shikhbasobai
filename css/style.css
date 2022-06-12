@@ -1,0 +1,130 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.sec1, .sec4{
+display: flex;
+padding: 50px 100px;
+align-items: center;}
+.sec2{
+padding: 50px 100px;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Ubuntu', sans-serif;
+}
+.bdtext{
+    color: red;
+    text-transform: uppercase;
+}
+.headertext{
+    text-transform: uppercase;
+    border-left: 2px solid red;
+    padding-left: 10px;
+}
+.s1leftimg, .s2rightimg, .s3leftimg, .s4rightimg, .s5leftimg{
+    width: 600px;
+}
+.primarytext{
+    color: grey;
+    font-size: 16px;
+    padding-top: 20px;
+    line-height: 26px;
+    text-align: justify;
+}
+.btn1, .btn2, .btn3, .btn4{
+    text-decoration: none;
+    background-image: linear-gradient(to right, #E74C3C, #F5B7B1);;
+    padding: 10px 40px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    margin: 20px 30px;
+    display: inline-block;
+    border-radius: 5px ;
+}
+.another-text{
+    font-size:15px; 
+    color: gray;
+    font-family: 'Ubuntu', sans-serif;  
+ }
+ .secendary-heading{
+     text-align: center;
+     padding: 50px 0px;
+     text-transform: uppercase;
+ }
+.s2container{
+    display: flex;
+    text-align: center;
+    justify-content: space-between ;
+}
+.box-1, .box-2, .box-3{
+    flex-basis: 31%;
+    flex-wrap: wrap;    
+}
+.box-1,.box-3{
+    background-color: #F4F6F6;
+    padding: 25px;
+    box-shadow: 10px 10px 10px 0px grey;
+}
+.box-2{
+    background-color: bisque;
+    padding: 25px;
+    box-shadow: 10px 10px 10px 0px grey;
+}
+.s2icon{
+    font-size: 50px;
+    color: brown;
+    padding-bottom: 20px ;
+}
+.box-heading{
+    color: brown ;
+    padding: 10px 0px ;
+}
+.box-1heading, .box-2heading, .box-3heading{
+    color: crimson;
+}
+.heading{
+    text-align: center;
+    text-transform: uppercase;
+}
+.sec3, .sec5{
+    display: flex;
+    padding: 50px 100px;
+    align-items: center;
+}
+.sec3left, .sec3right{
+    flex-basis: 50%;
+    flex-wrap: wrap; 
+}
+.sec5left, .sec5right{
+    flex-basis: 50%;
+    flex-wrap: wrap; 
+}
+.anchortext{
+    text-decoration: none;
+    color: chocolate;
+    text-transform: capitalize;
+}
+.footer{
+    background-color: black;
+}
+.footerheading{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+}
+.footertext{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+.digitaltext{
+    color: brown;
+}
